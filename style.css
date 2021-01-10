@@ -179,3 +179,715 @@ label {
     width: 24px;
     height: 24px;
 }
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .wrapper {
+        display: flex;
+        margin-left: 15px;
+    }
+    
+    .header {    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: navy;
+        height: 80px;
+    }
+    
+    .header button {
+        border: 0;
+        background: orange;
+        color: navy;
+        font-size: 16px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 2px solid navy;
+        border-radius: 5px;
+        padding: 5px;
+        transition: 0.7s;
+    }
+    
+    .header button:hover {
+        cursor: pointer;
+        color: white;
+        border: 2px solid white;
+        transition: 0.7s;
+    }
+    
+    .headerTitle {
+        color: white;
+        font-size: 20px;  
+        text-align: center;  
+    }
+    
+    .inputBlock {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .inputWord {
+        margin-left: 15px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        width: 280px;
+        height: 30px;
+        font-size: 24px;
+        font-weight: 900;
+        color: navy;
+        padding: 3px;
+        border: 2px solid navy;
+        border-radius: 5px;
+    }
+    
+    .checkBoxLabelBlock {
+        margin-left: 15px;
+        margin-top: 3px;
+    }
+    
+    input {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .resultDiv, label {
+        font-size: 18px;
+        color: navy;    
+    }
+    
+    label {
+        margin-left: 10px;
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    
+    .row p:first-child, .row p:nth-child(2) {
+        margin-right: 0;
+        font-weight: 900;
+        width: 100%;
+    }
+
+    .row p:first-child {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    
+    .row p {
+        width: 290px;
+        height: 35px;
+        font-size: 16px;
+        margin-top: 0;
+        color: navy;
+    }
+    
+    .row img {    
+        width: 35px;
+        height: 35px;
+        margin-left: 0;
+    }
+    
+    .row img:hover {    
+        cursor: pointer;    
+    }
+    
+    .row p:nth-child(2) {
+        margin-left: 0;
+        color: blue;
+    }
+    
+    .row p:first-child:hover {
+        color: orange;
+        cursor: pointer;
+    }
+    
+    .popupBlock {
+        display: flex;
+        flex-direction: column;
+        background: orange;    
+        position: fixed;
+        margin-top: 0;
+        margin-left: 0; 
+        width: 290px;
+        height: 200px;
+        border: 1px solid gray;
+        z-index: 999;
+    }
+    
+    .headerPopup {
+        height: 40px;
+        background: navy;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding-left: 10px;
+    }
+    
+    .popupBlock p {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 18px;
+        color: white;
+    }
+    
+    .popupExit {
+        position: relative;
+        display: inline-block;
+        border: 0;
+        background: transparent;
+        font-size: 30px;
+        color: white;
+        margin-left: auto;
+        margin-right: 15px;
+    }
+    
+    .popupBlock button:hover {
+        color: orange;
+        cursor: pointer;
+    }
+    
+    .addFavorites, .clearFavorites {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 412px) {
+    .wrapper {
+        display: flex;
+        margin-left: 15px;
+    }
+    
+    .header {    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: navy;
+        height: 80px;
+    }
+    
+    .header button {
+        border: 0;
+        background: orange;
+        color: navy;
+        font-size: 18px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 2px solid navy;
+        border-radius: 5px;
+        padding: 5px;
+        transition: 0.7s;
+    }
+    
+    .header button:hover {
+        cursor: pointer;
+        color: white;
+        border: 2px solid white;
+        transition: 0.7s;
+    }
+    
+    .headerTitle {
+        color: white;
+        font-size: 22px;  
+        text-align: center;  
+    }
+    
+    .inputBlock {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .inputWord {
+        margin-left: 15px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        width: 335px;
+        height: 30px;
+        font-size: 24px;
+        font-weight: 900;
+        color: navy;
+        padding: 3px;
+        border: 2px solid navy;
+        border-radius: 5px;
+    }
+    
+    .checkBoxLabelBlock {
+        margin-left: 15px;
+        margin-top: 3px;
+    }
+    
+    input {
+        width: 22px;
+        height: 22px;
+    }
+    
+    .resultDiv, label {
+        font-size: 20px;
+        color: navy;    
+    }
+    
+    label {
+        margin-left: 10px;
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    
+    .row p:first-child, .row p:nth-child(2) {
+        margin-right: 0;
+        font-weight: 900;
+        width: 100%;
+    }
+
+    .row p:first-child {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    
+    .row p {
+        width: 290px;
+        height: 40px;
+        font-size: 18px;
+        margin-top: 0;
+        color: navy;
+    }
+    
+    .row img {    
+        width: 35px;
+        height: 35px;
+        margin-left: 0;
+    }
+    
+    .row img:hover {    
+        cursor: pointer;    
+    }
+    
+    .row p:nth-child(2) {
+        margin-left: 0;
+        color: blue;
+    }
+    
+    .row p:first-child:hover {
+        color: orange;
+        cursor: pointer;
+    }
+    
+    .popupBlock {
+        display: flex;
+        flex-direction: column;
+        background: orange;    
+        position: fixed;
+        margin-top: 0;
+        margin-left: 0; 
+        width: 345px;
+        height: 200px;
+        border: 1px solid gray;
+        z-index: 999;
+    }
+    
+    .headerPopup {
+        height: 40px;
+        background: navy;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding-left: 10px;
+    }
+    
+    .popupBlock p {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 18px;
+        color: white;
+    }
+    
+    .popupExit {
+        position: relative;
+        display: inline-block;
+        border: 0;
+        background: transparent;
+        font-size: 30px;
+        color: white;
+        margin-left: auto;
+        margin-right: 15px;
+    }
+    
+    .popupBlock button:hover {
+        color: orange;
+        cursor: pointer;
+    }
+    
+    .addFavorites, .clearFavorites {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (min-width: 412px) and (max-width: 600px) {
+    .wrapper {
+        display: flex;
+        margin-left: 15px;
+    }
+    
+    .header {    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: navy;
+        height: 80px;
+    }
+    
+    .header button {
+        border: 0;
+        background: orange;
+        color: navy;
+        font-size: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 2px solid navy;
+        border-radius: 5px;
+        padding: 5px;
+        transition: 0.7s;
+    }
+    
+    .header button:hover {
+        cursor: pointer;
+        color: white;
+        border: 2px solid white;
+        transition: 0.7s;
+    }
+    
+    .headerTitle {
+        color: white;
+        font-size: 24px;  
+        text-align: center;  
+    }
+    
+    .inputBlock {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .inputWord {
+        margin-left: 15px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        width: 375px;
+        height: 30px;
+        font-size: 24px;
+        font-weight: 900;
+        color: navy;
+        padding: 3px;
+        border: 2px solid navy;
+        border-radius: 5px;
+    }
+    
+    .checkBoxLabelBlock {
+        margin-left: 15px;
+        margin-top: 3px;
+    }
+    
+    input {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .resultDiv, label {
+        font-size: 22px;
+        color: navy;    
+    }
+    
+    label {
+        margin-left: 10px;
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    
+    .row p:first-child, .row p:nth-child(2) {
+        margin-right: 0;
+        font-weight: 900;
+        width: 100%;
+    }
+
+    .row p:first-child {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    
+    .row p {
+        width: 290px;
+        height: 45px;
+        font-size: 20px;
+        margin-top: 0;
+        color: navy;
+    }
+    
+    .row img {    
+        width: 35px;
+        height: 35px;
+        margin-left: 0;
+    }
+    
+    .row img:hover {    
+        cursor: pointer;    
+    }
+    
+    .row p:nth-child(2) {
+        margin-left: 0;
+        color: blue;
+    }
+    
+    .row p:first-child:hover {
+        color: orange;
+        cursor: pointer;
+    }
+    
+    .popupBlock {
+        display: flex;
+        flex-direction: column;
+        background: orange;    
+        position: fixed;
+        margin-top: 0;
+        margin-left: 0; 
+        width: 384px;
+        height: 200px;
+        border: 1px solid gray;
+        z-index: 999;
+    }
+    
+    .headerPopup {
+        height: 40px;
+        background: navy;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding-left: 10px;
+    }
+    
+    .popupBlock p {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .popupExit {
+        position: relative;
+        display: inline-block;
+        border: 0;
+        background: transparent;
+        font-size: 30px;
+        color: white;
+        margin-left: auto;
+        margin-right: 15px;
+    }
+    
+    .popupBlock button:hover {
+        color: orange;
+        cursor: pointer;
+    }
+    
+    .addFavorites, .clearFavorites {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .wrapper {
+        display: flex;
+        margin-left: 15px;
+    }
+    
+    .header {    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: navy;
+        height: 80px;
+    }
+    
+    .header button {
+        border: 0;
+        background: orange;
+        color: navy;
+        font-size: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 2px solid navy;
+        border-radius: 5px;
+        padding: 5px;
+        transition: 0.7s;
+    }
+    
+    .header button:hover {
+        cursor: pointer;
+        color: white;
+        border: 2px solid white;
+        transition: 0.7s;
+    }
+    
+    .headerTitle {
+        color: white;
+        font-size: 24px;  
+        text-align: center;  
+    }
+    
+    .inputBlock {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .inputWord {
+        margin-left: 15px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        width: 560px;
+        height: 30px;
+        font-size: 24px;
+        font-weight: 900;
+        color: navy;
+        padding: 3px;
+        border: 2px solid navy;
+        border-radius: 5px;
+    }
+    
+    .checkBoxLabelBlock {
+        margin-left: 15px;
+        margin-top: 3px;
+    }
+    
+    input {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .resultDiv, label {
+        font-size: 22px;
+        color: navy;    
+    }
+    
+    label {
+        margin-left: 10px;
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    
+    .row p:first-child, .row p:nth-child(2) {
+        margin-right: 0;
+        font-weight: 900;
+        width: 100%;
+    }
+
+    .row p:first-child {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    
+    .row p {
+        width: 290px;
+        height: 45px;
+        font-size: 20px;
+        margin-top: 0;
+        color: navy;
+    }
+    
+    .row img {    
+        width: 35px;
+        height: 35px;
+        margin-left: 0;
+    }
+    
+    .row img:hover {    
+        cursor: pointer;    
+    }
+    
+    .row p:nth-child(2) {
+        margin-left: 0;
+        color: blue;
+    }
+    
+    .row p:first-child:hover {
+        color: orange;
+        cursor: pointer;
+    }
+    
+    .popupBlock {
+        display: flex;
+        flex-direction: column;
+        background: orange;    
+        position: fixed;
+        margin-top: 0;
+        margin-left: 0; 
+        width: 570px;
+        height: 200px;
+        border: 1px solid gray;
+        z-index: 999;
+    }
+    
+    .headerPopup {
+        height: 40px;
+        background: navy;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding-left: 10px;
+    }
+    
+    .popupBlock p {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .popupExit {
+        position: relative;
+        display: inline-block;
+        border: 0;
+        background: transparent;
+        font-size: 30px;
+        color: white;
+        margin-left: auto;
+        margin-right: 15px;
+    }
+    
+    .popupBlock button:hover {
+        color: orange;
+        cursor: pointer;
+    }
+    
+    .addFavorites, .clearFavorites {
+        width: 24px;
+        height: 24px;
+    }
+}
